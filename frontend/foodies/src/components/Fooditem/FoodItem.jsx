@@ -1,0 +1,69 @@
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
+import { StoreContext } from "../../context/StoreContext";
+import "./FoodItem.css";
+
+const FoodItem = ({ id, name, description, imageUrl, price }) => {
+  const { increaseQty, decreaseQty, quantities = {} } =
+    useContext(StoreContext) || {};
+
+  return (
+    <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-3 d-flex justify-content-center">
+      <div className="card" style={{ maxWidth: "320px" }}>
+        
+        <Link to={`/food/${id}`}>
+          <img
+            src={imageUrl}
+            alt={name}
+            className="card-img-top"
+            height={200}
+          />
+        </Link>
+
+        <div className="card-body">
+          <h5 className="card-title">{name}</h5>
+          <p className="card-text">{description}</p>
+
+          <div className="d-flex justify-content-between align-items-center">
+            <span className="h5 mb-0">₹{price}</span>
+          </div>
+        </div>
+
+        <div className="card-footer d-flex justify-content-between bg-light">
+          <Link to={`/food/${id}`} className="btn btn-primary btn-sm">
+            View Food
+          </Link>
+
+          {quantities[id] > 0 ? (
+            <div className="d-flex align-items-center gap-2">
+              <button
+                className="btn btn-danger btn-sm"
+                onClick={() => decreaseQty(id)}
+              >
+                <i className="bi bi-dash-circle"></i>
+              </button>
+
+              <span className="fw-bold">{quantities[id]}</span>
+
+              <button
+                className="btn btn-success btn-sm"
+                onClick={() => increaseQty(id)}
+              >
+                <i className="bi bi-plus-circle"></i>
+              </button>
+            </div>
+          ) : (
+            <button
+              className="btn btn-success btn-sm"
+              onClick={() => increaseQty(id)}
+            >
+              <i className="bi bi-plus-circle"></i>
+            </button>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default FoodItem;
