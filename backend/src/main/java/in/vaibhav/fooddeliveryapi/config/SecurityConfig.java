@@ -81,7 +81,8 @@ public class SecurityConfig {
         config.setAllowedOrigins(List.of(
                 "http://localhost:5173",
                 "http://localhost:5174",
-                "https://fooddeliveryapplication-fullstack-1.onrender.com"));
+                "https://food-delivery-application-full-stac-theta.vercel.app",
+                "https://food-delivery-application-full-stac-ten.vercel.app"));
         config.setAllowedMethods(
                 List.of("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS")
         );
