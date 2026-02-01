@@ -3,7 +3,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import "./ListFood.css";
 
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = `${import.meta.env.VITE_API_URL}/foods`;
 
 const ListFood = () => {
   const [list, setList] = useState([]);
@@ -11,7 +11,7 @@ const ListFood = () => {
   const fetchList = async () => {
     try {
       const response = await axios.get(API_URL);
-      setList(response.data); // ✅ array directly
+      setList(response.data);
     } catch (error) {
       console.error(error);
       toast.error("Error while reading the foods.");
@@ -20,7 +20,7 @@ const ListFood = () => {
 
   const removeFood = async (foodId) => {
     try {
-      await axios.delete(`${API_URL}/${foodId}`); // ✅ DELETE
+      await axios.delete(`${API_URL}/${foodId}`);
       toast.success("Food removed.");
       fetchList();
     } catch (error) {
