@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48d3045c-7b10-4b4a-9fe8-bf317f1f3027" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/src/Pages/Contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/src/Pages/Contact/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/src/Pages/Explore/Explore.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/src/Pages/Explore/Explore.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/src/Pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/src/Pages/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/src/assets/assets.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/src/assets/assets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/src/components/ExploreMenu/ExploreMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/src/components/ExploreMenu/ExploreMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/src/components/ExploreMenu/ExploreMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/src/components/ExploreMenu/ExploreMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/src/components/FoodDisplay/FoodDisplay.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/src/components/FoodDisplay/FoodDisplay.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/src/components/Menbar/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/src/components/Menbar/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/src/components/Menbar/Menubar.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/src/components/Menbar/Menubar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/src/components/Menbar/Menubar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/src/components/Menbar/Menubar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/foodies/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/foodies/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/FooddeliveryapiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/config/AWSconfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/controller/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/controller/FoodController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/entity/CartEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/entity/FoodEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/entity/OrderEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/entity/UserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/filters/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/io/AuthenticationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/io/AuthenticationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/io/CartRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/io/CartResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/io/FoodRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/io/FoodResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/io/OrderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/io/OrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/io/OrderResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/io/UserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/io/UserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/repository/CartRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/repository/FoodRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/service/AppUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/service/AuthenticationFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/service/AuthenticationFacadeImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/service/CartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/service/CartServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/service/FoodService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/service/FoodServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/service/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/vaibhav/fooddeliveryapi/util/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/in/vaibhav/fooddeliveryapi/FooddeliveryapiApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="36WNifmMedxyYpAEA1UO41eaJ8P" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FoodDelivery.executor": "Debug",
+    "Application.Unnamed.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/vaibh/Downloads/Food-Delivery-Application",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="FoodDelivery" type="Application" factoryName="Application" singleton="false">
+      <envs>
+        <env name="AWS_ACCESS_KEY" value="AKIAXBSIS3E2YR7ZKBTF" />
+        <env name="AWS_SECRET_KEY" value="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" />
+        <env name="JWT_SECRET" value="QW5vdGhlclZlcnlTdHJvbmdKZXd0U2VjcmV0S2V5MTIzNDU2" />
+        <env name="MONGODB_URI" value="mongodb+srv://vaibhavranaa_db_user: gQNG1N8BhCaScsXe@food-delivery-cluster.pubv74g.mongodb.net/fooddelivery?retryWrites=true&amp;w=majority&amp;appName=food-delivery-cluster " />
+        <env name="RAZORPAY_ID" value="rzp_test_RvVnf06Y7pgZZ0" />
+        <env name="RAZORPAY_SECRET" value="Bk8KjC7qDURfHnu0WFYHNaKF" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="in.vaibhav.fooddeliveryapi.FooddeliveryapiApplication" />
+      <module name="fooddeliveryapi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="fooddeliveryapi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48d3045c-7b10-4b4a-9fe8-bf317f1f3027" name="Changes" comment="" />
+      <created>1765118496021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765118496021</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="software.amazon.awssdk.thirdparty.jackson.core.JsonProcessingException" package="software.amazon.awssdk.thirdparty.jackson.core" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this" />
+        <watch expression="this" language="JAVA" />
+        <watch expression="this.h" custom="java.lang.reflect.Proxy" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
