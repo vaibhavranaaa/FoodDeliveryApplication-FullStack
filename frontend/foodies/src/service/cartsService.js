@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = import.meta.env.VITE_API_URL + "/api/cart";
 
 export const addToCart = async (foodId, token) => {
   try {
@@ -48,7 +48,6 @@ export const getCartData = async (token) => {
   } catch (error) {
     handleAuthError(error);
     console.error("Error while fetching cart data", error);
-
     return {};
   }
 };
