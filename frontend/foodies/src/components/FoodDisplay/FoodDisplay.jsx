@@ -6,11 +6,17 @@ const FoodDisplay = ({category,searchText}) => {
 
 
 
-  const { foodList = [] } = useContext(StoreContext);
-  const filteredFoods=foodList.filter(food=>(
-    (category==='All' || food.category=== category) &&
-    food.name.toLowerCase().includes(searchText.toLowerCase())
-  ));
+  const { foodList } = useContext(StoreContext);
+
+console.log("foodList =", foodList);
+console.log("isArray =", Array.isArray(foodList));
+
+const filteredFoods = Array.isArray(foodList)
+  ? foodList.filter(food => (
+      (category === 'All' || food.category === category) &&
+      food.name.toLowerCase().includes(searchText.toLowerCase())
+    ))
+  : [];
 
   return (
     <div className="container">

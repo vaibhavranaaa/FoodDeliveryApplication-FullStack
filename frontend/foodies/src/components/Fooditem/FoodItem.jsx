@@ -13,7 +13,7 @@ const FoodItem = ({ id, name, description, imageUrl, price }) => {
         
         <Link to={`/food/${id}`}>
           <img
-            src={imageUrl}
+            src={`http://localhost:8080/uploads/${imageUrl}`}
             alt={name}
             className="card-img-top"
             height={200}

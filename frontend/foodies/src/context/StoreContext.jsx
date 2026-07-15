@@ -43,16 +43,20 @@ export const StoreContextProvider=(props)=>{
     };
     useEffect(()=>{
         async function loadData(){
-            const data=await fetchFoodList();
+            const data = await fetchFoodList();
+    
+            console.log("Fetched food data:", data);
+            console.log("Is Array:", Array.isArray(data));
+    
             setFoodList(data);
+    
             if(localStorage.getItem('token')){
                 setToken(localStorage.getItem("token"));
                 await loadCartData(localStorage.getItem("token"));
             }
-
         }
+    
         loadData();
-
     },[]);
 
 

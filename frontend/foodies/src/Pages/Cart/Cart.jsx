@@ -42,11 +42,16 @@ const Cart = () => {
                 <div key={food.id}>
                   <div className="row cart-item mb-3">
                     <div className="col-md-3">
-                      <img
-                        src={food.imageUrl}
-                        alt={food.name}
-                        className="img-fluid rounded"
-                      />
+                    <img
+  src={`http://localhost:8080/uploads/${food.imageUrl}`}
+  alt={food.name}
+  className="img-fluid rounded"
+  style={{
+    width: "120px",
+    height: "120px",
+    objectFit: "cover"
+  }}
+/>
                     </div>
 
                     <div className="col-md-5">

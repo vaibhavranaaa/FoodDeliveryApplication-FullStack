@@ -36,7 +36,15 @@ const FoodDetails = () => {
             <div className="container px-4 px-lg-5 my-5">
                 <div className="row gx-4 gx-lg-5 align-items-center">
                     <div className="col-md-5">
-                        <img src={data.imageUrl} alt={data.name} className="card-img-top" />
+                    <img
+  src={`http://localhost:8080/uploads/${data.imageUrl}`}
+  alt={data.name}
+  className="card-img-top"
+  style={{
+    height: "350px",
+    objectFit: "cover"
+  }}
+/>
                     </div>
                     <div className="col-md-6">
                         <div className="fs-5 mb-1">

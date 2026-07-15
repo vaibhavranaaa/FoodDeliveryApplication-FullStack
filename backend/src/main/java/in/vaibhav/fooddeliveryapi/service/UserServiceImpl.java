@@ -28,13 +28,22 @@ public class UserServiceImpl  implements UserService{
 
     @Override
     public String findByUserId() {
-        String loggdInUserEmail=authenticationFacade.getAuthentication().getName();
-        UserEntity loggedInUser= userRepository.findByEmail(loggdInUserEmail).orElseThrow(()->new UsernameNotFoundException("User not found"));
-        return loggedInUser.getId();
 
+        Authentication auth = authenticationFacade.getAuthentication();
 
+        System.out.println("AUTH = " + auth);
 
+        String email = auth.getName();
 
+        System.out.println("EMAIL = " + email);
+
+        UserEntity user = userRepository.findByEmail(email)
+                .orElseThrow(() ->
+                        new UsernameNotFoundException("User not found"));
+
+        System.out.println("USER FOUND = " + user.getEmail());
+
+        return user.getId();
     }
 
     private UserEntity convertToEntity(UserRequest request){

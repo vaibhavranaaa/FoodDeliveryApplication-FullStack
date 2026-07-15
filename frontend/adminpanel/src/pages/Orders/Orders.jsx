@@ -6,13 +6,13 @@ const Orders = () => {
   const [data, setData] = useState([]);
 
   const fetchOrders = async () => {
-    const response = await axios.get(`${import.meta.env.VITE_API_URL}/api/orders/all`);
+    const response = await axios.get(`${import.meta.env.VITE_API_URL}/orders/all`);
     setData(response.data);
   };
 
   const updateStatus = async (event, orderId) => {
     const response = await axios.patch(
-      `${import.meta.env.VITE_API_URL}/api/orders/status/${orderId}?status=${event.target.value}`
+      `${import.meta.env.VITE_API_URL}/orders/status/${orderId}?status=${event.target.value}`
     );
     
     if (response.status === 200) {
@@ -23,7 +23,7 @@ const Orders = () => {
   useEffect(() => {
     fetchOrders();
   }, []);
-
+    
   return (
     <div className="container">
       <div className="py-5 row justify-content-center">

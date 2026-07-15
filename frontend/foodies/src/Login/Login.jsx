@@ -31,6 +31,8 @@ const navigate=useNavigate();
           toast.error('Unable to login.Please try again');
         } 
       } catch (error) {
+        console.log(error.response);
+        console.log(error.response?.data);
         console.log('Unable to login',error);
         toast.error('Unable to login.Please try again');
         
